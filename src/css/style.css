@@ -1,0 +1,15 @@
+body {
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #696969;
+}
+
+.gallery {
+  display: flex;
+  justify-content:start;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 90%;
+  max-width: 1010px;
+  margin: 60px auto 0;
+}

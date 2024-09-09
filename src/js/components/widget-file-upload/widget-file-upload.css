@@ -1,0 +1,47 @@
+.file-container {
+  position: relative;
+  max-width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+
+.file-container__input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  width: 100%;
+  opacity: 0.1;
+}
+
+.file-container__overlap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.overlap-content__text {
+  font-size: 24px;
+  pointer-events: none;
+}
+
+.error-message {
+  position: absolute;
+  right: 50px;
+  font-size: 15px;
+  color: red;
+}
